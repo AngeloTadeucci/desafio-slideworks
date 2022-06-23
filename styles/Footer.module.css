@@ -1,0 +1,44 @@
+.footer {
+    background: #1e2833;
+    color: #ffffff;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerLogo {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerLogo p {
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+
+.footerInfo {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footerTerms {
+    display: flex;
+    flex: 1;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+.footerTerms a {
+    margin-right: 20px;
+}
+
+.footerSocial {
+    display: flex;
+    flex-flow: row-reverse;
+    align-content: flex-end;
+}

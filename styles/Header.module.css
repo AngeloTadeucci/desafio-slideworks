@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header_items {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

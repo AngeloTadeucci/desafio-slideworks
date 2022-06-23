@@ -1,8 +1,19 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import AppProvider from "../hooks";
+import { ReactNode } from "react";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+interface Props {
+    children?: ReactNode;
 }
 
-export default MyApp
+function MyApp({ Component, pageProps }: AppProps) {
+    return (
+        <AppProvider>
+            <Component {...pageProps} />
+        </AppProvider>
+    );
+}
+
+export default MyApp;
+export type { Props };
