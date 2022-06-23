@@ -46,6 +46,7 @@
 .card:active {
     color: #0070f3;
     border-color: #0070f3;
+    cursor: pointer;
 }
 
 .card h2 {
@@ -105,4 +106,10 @@
 .logo {
     height: 1em;
     margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding: 0rem;
+    }
 }

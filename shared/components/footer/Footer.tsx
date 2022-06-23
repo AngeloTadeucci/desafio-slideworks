@@ -20,14 +20,14 @@ export default function Footer() {
 
                 <div className={styles.footerSocial}>
                     <Link href="#">
-                        <AiFillTwitterSquare size={25} />
+                        <AiFillTwitterSquare size={25} style={{ cursor: "pointer" }} />
                     </Link>
                     <Link href="#">
-                        <AiFillInstagram size={25} />
+                        <AiFillInstagram size={25} style={{ cursor: "pointer" }} />
                     </Link>
-                    <Link href="#">
-                        <AiFillGithub size={25} />
-                    </Link>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/AngeloTadeucci">
+                        <AiFillGithub size={25} style={{ cursor: "pointer" }} />
+                    </a>
                 </div>
             </div>
         </footer>

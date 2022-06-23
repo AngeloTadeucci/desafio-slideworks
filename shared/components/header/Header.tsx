@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.header_logo}>
-                <Image src="/logo_bibbble_colored.svg" alt="Logo" width={130} height={32}/>
+                <Image src="/logo_bibbble_colored.svg" alt="Logo" width={130} height={32} />
             </div>
 
             <div className={styles.header_items}>
@@ -18,7 +18,7 @@ export default function Header() {
                 <Link href="#">Gallery</Link>
                 <Link href="#">Team</Link>
                 <Link href="#">
-                    <BsSearch></BsSearch>
+                    <BsSearch style={{ cursor: "pointer" }} />
                 </Link>
             </div>
         </header>
